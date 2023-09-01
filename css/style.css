@@ -3,3 +3,9 @@
 /* utility */
 @import "./utility/colors.css";
 @import "./utility/typography.css";
+
+/* global */
+@import "./global.css";
+
+/* home */
+@import "./header.css";

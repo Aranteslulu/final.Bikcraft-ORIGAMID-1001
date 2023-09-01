@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  color: var(--clr-gray);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+img[src$="jpg"] {
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar {
+  background-color: #d9d9d9;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 12px;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, rgba(142, 142, 142, 1) 0%, rgba(117, 117, 117, 1) 100%);
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
