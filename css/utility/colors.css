@@ -1,0 +1,87 @@
+/*Colors chosen and organized in my figma*/
+/* Neutral */
+.clr-12 {
+  color: #000000;
+}
+
+.clr-11 {
+  color: #121212;
+}
+
+.clr-10 {
+  color: #2e2e2e;
+}
+
+.clr-9 {
+  color: #404040;
+}
+
+.clr-8 {
+  color: #595959;
+}
+
+.clr-7 {
+  color: #707070;
+}
+
+.clr-6 {
+  color: #9c9c9c;
+}
+
+.clr-5 {
+  color: #b3b3b3;
+}
+
+.clr-4 {
+  color: #cccccc;
+}
+
+.clr-3 {
+  color: #8c8c8c;
+}
+
+.clr-2 {
+  color: #ededed;
+}
+
+.clr-1 {
+  color: #f7f7f7;
+}
+
+.clr-w {
+  color: #ffffff;
+}
+
+
+/* Primary */
+.clr-p5 {
+  color: #332200;
+}
+
+.clr-p4 {
+  color: #664400;
+}
+
+.clr-p3 {
+  color: #a66f00;
+}
+
+.clr-p2 {
+  color: #e5a40b;
+}
+
+.clr-p1 {
+  color: #ffb700;
+}
+
+
+/* root for background */
+:root {
+  --clr-black: #000000;
+  --clr-gray: #121212;
+  --clr-silver: #2e2e2e;
+  --clr-primary: #ffb700;
+  --clr-medium-primary:#a66f00;
+  --clr-dark-primary: #332200;--clr-light-gray:#ededed;
+  --clr-white: #ffffff;
+}
