@@ -71,14 +71,14 @@
   }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 407px) {
   .header ul {
-    gap: 10px;
+    gap: 32px;
   }
 
   .header li a {
     background-color: var(--clr-gray);
-    padding: 10px 12px;
+    padding: 12px 16px;
     border-radius: 4px;
   }
 }
