@@ -5,14 +5,18 @@
 @import "./utility/typography.css";
 
 /* global */
-@import "global.css";
+@import "./global/global.css";
+@import "./global/internal.css";
 
 /* home */
-@import "header.css";
-@import "main.css";
-@import "showcase.css";
-@import "tecnology.css";
-@import "brands.css";
-@import "quote.css";
-@import "insurance.css";
-@import "footer.css";
+@import "./home/header.css";
+@import "./home/main.css";
+@import "./home/showcase.css";
+@import "./home/tecnology.css";
+@import "./home/brands.css";
+@import "./home/quote.css";
+@import "./home/insurance.css";
+@import "./home/footer.css";
+
+/* terms */
+@import "./terms/terms.css";
