@@ -5,7 +5,14 @@
 @import "./utility/typography.css";
 
 /* global */
-@import "./global.css";
+@import "global.css";
 
 /* home */
-@import "./header.css";
+@import "header.css";
+@import "main.css";
+@import "showcase.css";
+@import "tecnology.css";
+@import "brands.css";
+@import "quote.css";
+@import "insurance.css";
+@import "footer.css";
