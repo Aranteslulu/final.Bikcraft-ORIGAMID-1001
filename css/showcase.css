@@ -1,0 +1,49 @@
+.showcase {
+  padding: 100px 20px 100px;
+}
+
+.showcase-list {
+  max-width: 1400px;
+  margin: 40px auto;
+  padding: 0 8px 12px;
+
+  display: flex;
+  gap: 20px;
+}
+
+.showcase-list img {
+  min-width: 280px;
+}
+
+.showcase-list h3 {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.showcase-list h3::before {
+  content: '';
+
+  width: 12px;
+  height: 8px;
+
+  margin-right: 4px;
+
+  background-color: var(--clr-primary);
+
+  transition: 0.2s;
+}
+
+.showcase-list a:hover h3::before{
+ width: 24px;
+}
+
+.showcase-list span {
+  margin-left: 16px;
+}
+
+@media (max-width:1000px) {
+  .showcase-list {
+    overflow-x: scroll;
+  }
+}
