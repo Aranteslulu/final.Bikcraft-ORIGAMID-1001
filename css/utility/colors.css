@@ -82,6 +82,7 @@
   --clr-silver: #2e2e2e;
   --clr-primary: #ffb700;
   --clr-medium-primary:#a66f00;
-  --clr-dark-primary: #332200;--clr-light-gray:#ededed;
+  --clr-dark-primary: #332200;
+  --clr-light-gray:#ededed;
   --clr-white: #ffffff;
 }
