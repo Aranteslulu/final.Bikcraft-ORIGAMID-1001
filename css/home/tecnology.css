@@ -72,7 +72,7 @@
   width: 24px;
   height: 24px;
 
-  background: url(../img/icones/eletrica.svg);
+  background: url(../../img/icones/eletrica.svg);
 }
 
 .about-tecnology .gps::before {
@@ -82,7 +82,7 @@
   width: 24px;
   height: 24px;
 
-  background: url(../img/icones/rastreador.svg);
+  background: url(../../img/icones/rastreador.svg);
 }
 
 @media (max-width:700px) {
