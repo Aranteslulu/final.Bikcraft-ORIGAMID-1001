@@ -25,3 +25,6 @@
 /* insurances */
 @import "./insurances/advantages.css";
 @import "./insurances/questions.css";
+
+/* bicycles */
+@import "./bicycles/bicycles.css";
