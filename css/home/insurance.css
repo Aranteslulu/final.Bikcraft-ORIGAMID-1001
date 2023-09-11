@@ -2,7 +2,7 @@
   background-color: var(--clr-gray);
 }
 
-.insurance{
+.insurance {
   padding-top: 120px;
   padding-bottom: 100px;
 }
@@ -11,50 +11,55 @@
   padding-top: 0;
 }
 
-.silver-bg,.gold-bg {
+.silver-bg,
+.gold-bg {
   background-color: var(--clr-black);
   border-radius: 5px;
   margin-top: 40px;
 }
 
-.silver, .gold {
+.silver,
+.gold {
   padding: 32px 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
 }
 
-.silver span, .gold span {
+.silver span,
+.gold span {
   display: flex;
   align-items: end;
   flex-direction: column;
 }
 
 
-.silver ul, .gold ul {
+.silver ul,
+.gold ul {
   grid-column: 1/-1;
   grid-row: 2;
   width: 100%;
 }
 
 
-.insurance li+li{
+.insurance li+li {
   margin-top: 20px;
 }
 
 .insurance li::before {
   content: '';
-display: inline-block;
-margin-right: 4px;
+  display: inline-block;
+  margin-right: 4px;
 
-width: 12px;
-height: 9px;
+  width: 12px;
+  height: 9px;
 
-background: url(../img/decoração/correct.svg) no-repeat center;
+  background: url(../img/decoração/correct.svg) no-repeat center;
 }
 
 
-.silver .silver-btn, .gold .primary-btn {
+.silver .silver-btn,
+.gold .primary-btn {
   width: max-content;
 }
 
@@ -94,15 +99,16 @@ background: url(../img/decoração/correct.svg) no-repeat center;
     flex-direction: column;
   }
 
-  .silver-bg, .gold-bg {
+  .silver-bg,
+  .gold-bg {
     width: 100%;
   }
 
-  
-.gold-bg {
-  margin-top: 0;
-}
-  
+
+  .gold-bg {
+    margin-top: 0;
+  }
+
 }
 
 @media (max-width:700px) {
