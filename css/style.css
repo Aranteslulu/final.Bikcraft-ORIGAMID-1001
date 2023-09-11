@@ -20,3 +20,7 @@
 
 /* terms */
 @import "./terms/terms.css";
+
+
+/* insurances */
+@import "./insurances/advantages.css";
