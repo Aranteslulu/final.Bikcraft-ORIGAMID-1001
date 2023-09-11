@@ -15,6 +15,12 @@
 .gold-bg {
   background-color: var(--clr-black);
   border-radius: 5px;
+  margin-top: 40px;
+}
+
+#insurances .silver-bg,
+.gold-bg {
+  margin-top: 0;
 }
 
 .silver,
