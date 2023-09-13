@@ -17,6 +17,20 @@
   object-fit: cover;
 }
 
+.bicycles-img {
+  position: relative;
+}
+
+.bicycles-img span {
+  position: absolute;
+  padding: 8px 16px 8px 8px;
+  background-color: var(--clr-black);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  top: 20px;
+  right: 0;
+}
+
 .bicycles-content {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -79,25 +93,4 @@
 
 .arrow:hover::after {
   transform: translate(5px);
-}
-
-@media (max-width:900px) {
-
-  .bicycles {
-    padding-top: 80px;
-    padding-bottom: 40px;
-    grid-template-columns: 1fr;
-  }
-
-  .bicycles-img img {
-    width: 100%;
-    height: 480px;
-    object-fit: cover;
-  }
-}
-
-@media (max-width:600px) {
-  .bicycles-img img {
-    height: 300px;
-  }
 }
