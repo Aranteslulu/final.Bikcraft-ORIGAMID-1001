@@ -124,11 +124,9 @@
   .bicycles-img img {
     height: 260px;
   }
+
   .bicycles {
     padding-top: 60px;
   }
 
-  .bicycles:nth-child(4) {
-    padding-bottom: 80px;
-  }
 }
