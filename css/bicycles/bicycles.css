@@ -90,7 +90,6 @@
   transition: 0.3s;
 }
 
-
 .arrow:hover::after {
   transform: translate(5px);
 }
@@ -128,5 +127,4 @@
   .bicycles {
     padding-top: 60px;
   }
-
 }
