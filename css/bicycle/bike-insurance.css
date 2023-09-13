@@ -1,0 +1,53 @@
+.bike-insurance-bg {
+  background-color: var(--clr-gray);
+  box-shadow: inset 0 120px 0 var(--clr-white), inset 0 -120px 0 var(--clr-black);
+}
+
+.bike-insurance {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.bike-insurance-content {
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.bike-insurance-content p {
+  padding-top: 32px;
+  padding-bottom: 20px;
+}
+
+.bike-insurance-img img {
+  height: 100%;
+  width: 100%;
+
+  object-fit: cover;
+}
+
+@media (max-width:800px) {
+  .bike-insurance {
+    grid-template-columns: 1fr;
+  }
+
+  .bike-insurance-content {
+    grid-row: 1;
+
+    padding-top: 60px;
+    padding-bottom: 0;
+  }
+
+  .bike-insurance-bg {
+    box-shadow: inset 0 -120px 0 var(--clr-black);
+  }
+
+  .bike-insurance-img img {
+    height: 500px;
+  }
+
+  .bike-insurance-content h2 {
+    font-size: 2.5rem !important;
+  }
+
+}
