@@ -94,3 +94,24 @@
 .arrow:hover::after {
   transform: translate(5px);
 }
+
+@media (max-width:900px) {
+
+  .bicycles {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    grid-template-columns: 1fr;
+  }
+
+  .bicycles-img img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width:600px) {
+  .bicycles-img img {
+    height: 300px;
+  }
+}
