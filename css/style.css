@@ -28,3 +28,6 @@
 
 /* bicycles */
 @import "./bicycles/bicycles.css";
+
+/* bicycle */
+@import "./bicycle/bicycle.css";
