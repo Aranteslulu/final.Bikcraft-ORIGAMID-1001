@@ -15,6 +15,15 @@
   min-width: 280px;
 }
 
+#bicycle .showcase-list {
+  padding: 0 0 12px;
+}
+
+#bicycle .showcase-list img {
+  min-height: 200px;
+  max-height: 500px;
+}
+
 .showcase-list h3 {
   display: flex;
   align-items: center;
