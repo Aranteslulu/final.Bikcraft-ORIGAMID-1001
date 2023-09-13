@@ -1,0 +1,90 @@
+.bicycle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.bicycle-img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.bicycle-img img {
+  flex: 1;
+  min-width: 200px;
+}
+
+.bicycle-img img:first-child {
+  min-width: 100%;
+}
+
+.bicycle-buy {
+  margin-top: 32px;
+  gap: 8px 12px;
+
+  display: grid;
+  grid-template-columns: max-content auto;
+  align-items: center;
+  justify-items: start;
+}
+
+.bicycle-buy a {
+  grid-row: span 2;
+}
+
+.bicycle-buy span {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  background-color: var(--clr-black);
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+
+.bicycle-content h2 {
+  margin-top: 40px;
+}
+
+.bicycle-informations, .bicycle-sheet {
+  background-color: var(--clr-black);
+  padding: 32px;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+
+.bicycle-informations {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.bicycle-informations h3 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.bicycle-sheet li {
+  display: flex;
+  justify-content: space-between;padding: 8px 0;
+  border-bottom: 1px solid var(--clr-gray);
+}
+
+.bicycle-sheet li:last-child {
+  border-bottom: none;
+}
+
+@media (max-width:800px) {
+.bicycle {
+  grid-template-columns: 1fr;
+}
+
+  .bicycle-content{
+    grid-row:1;
+    padding-bottom: 40px;
+  }
+}
