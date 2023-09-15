@@ -1,6 +1,6 @@
 .main-bg {
-  background-color: var(--clr-black);
-  box-shadow: inset 0 -100px 0 var(--clr-white);
+  background-color: var(--clr-12);
+  box-shadow: inset 0 -100px 0 var(--clr-w);
 }
 
 .main {

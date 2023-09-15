@@ -41,7 +41,7 @@
   display: flex;
   gap: 4px;
   align-items: center;
-  background-color: var(--clr-black);
+  background-color: var(--clr-12);
   padding: 4px 8px;
   border-radius: 5px;
 }
@@ -51,7 +51,7 @@
 }
 
 .bicycle-informations, .bicycle-sheet {
-  background-color: var(--clr-black);
+  background-color: var(--clr-12);
   padding: 32px;
   border-radius: 5px;
   margin-top: 8px;
@@ -71,7 +71,7 @@
 .bicycle-sheet li {
   display: flex;
   justify-content: space-between;padding: 8px 0;
-  border-bottom: 1px solid var(--clr-gray);
+  border-bottom: 1px solid var(--clr-11);
 }
 
 .bicycle-sheet li:last-child {

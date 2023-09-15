@@ -11,7 +11,7 @@
 .brands-list li {
   display: flex;
   padding: 32px;
-  border-left: 2px solid var(--clr-light-gray);
+  border-left: 2px solid var(--clr-2);
 }
 
 .brands-list img {
@@ -19,7 +19,7 @@
 }
 
 .brands-list li:nth-child(n+5) {
-  border-top: 2px solid var(--clr-light-gray);
+  border-top: 2px solid var(--clr-2);
 }
 
 .brands-list li:first-child,
@@ -36,7 +36,7 @@
 
 
   .brands-list li:nth-child(n+3) {
-    border-top: 2px solid var(--clr-light-gray);
+    border-top: 2px solid var(--clr-2);
   }
 
   .brands-list li:nth-child(odd) {

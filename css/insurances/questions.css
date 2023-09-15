@@ -13,7 +13,7 @@
 }
 
 .questions-list div:nth-child(odd) {
-  background-color: var(--clr-light-gray);
+  background-color: var(--clr-2);
 }
 
 .questions-list dd {
@@ -37,7 +37,7 @@
   width: 12px;
   height: 8px;
 
-  background-color: var(--clr-primary);
+  background-color: var(--clr-p1);
   transition: 0.3s;
 }
 

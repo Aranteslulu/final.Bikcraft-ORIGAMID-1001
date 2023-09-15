@@ -1,5 +1,5 @@
 .header-bg {
-  background-color: var(--clr-black);
+  background-color: var(--clr-12);
 }
 
 .header {
@@ -57,13 +57,13 @@
   }
 
   .header li a {
-    background-color: var(--clr-gray);
+    background-color: var(--clr-11);
     padding: 12px 20px;
     border-radius: 4px;
   }
 
   .header li a:hover {
-    background-color: var(--clr-silver);
+    background-color: var(--clr-10);
   }
 
   .header li a::after {
@@ -77,7 +77,7 @@
   }
 
   .header li a {
-    background-color: var(--clr-gray);
+    background-color: var(--clr-11);
     padding: 12px 16px;
     border-radius: 4px;
   }

@@ -1,5 +1,5 @@
 .quote-bg {
-  background-color: var(--clr-primary);
+  background-color: var(--clr-p1);
 }
 
 .quote {
@@ -43,7 +43,7 @@
   left: -32px;
 
   font-size: 5rem;
-  color: var(--clr-medium-primary);
+  color: var(--clr-p3);
 }
 
 
@@ -52,7 +52,7 @@
   position: absolute;
 
   font-size: 5rem;
-  color: var(--clr-medium-primary);
+  color: var(--clr-p3);
 }
 
 @media (max-width:1000px) {

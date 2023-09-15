@@ -1,5 +1,5 @@
 .bicycles-bg {
-  background-color: var(--clr-gray);
+  background-color: var(--clr-11);
 }
 
 .bicycles {
@@ -24,7 +24,7 @@
 .bicycles-img span {
   position: absolute;
   padding: 8px 16px 8px 8px;
-  background-color: var(--clr-black);
+  background-color: var(--clr-12);
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   top: 20px;
@@ -55,7 +55,7 @@
   width: 16px;
   height: 8px;
 
-  background-color: var(--clr-primary);
+  background-color: var(--clr-p1);
 }
 
 .bicycles-content a {
