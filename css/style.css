@@ -3,6 +3,7 @@
 /* utility */
 @import "./utility/colors.css";
 @import "./utility/typography.css";
+@import "./utility/form.css";
 
 /* global */
 @import "./global/global.css";
