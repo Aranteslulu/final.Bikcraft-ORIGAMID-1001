@@ -77,12 +77,22 @@
 
 /* root for background */
 :root {
-  --clr-black: #000000;
-  --clr-gray: #121212;
-  --clr-silver: #2e2e2e;
-  --clr-primary: #ffb700;
-  --clr-medium-primary:#a66f00;
-  --clr-dark-primary: #332200;
-  --clr-light-gray:#ededed;
-  --clr-white: #ffffff;
+  --clr-12: #000000;
+  --clr-11: #121212;
+  --clr-10: #2e2e2e;
+  --clr-9: #404040;
+  --clr-8: #595959;
+  --clr-7: #707070;
+  --clr-6: #9c9c9c;
+  --clr-5: #b3b3b3;
+  --clr-4: #cccccc;
+  --clr-3: #8c8c8c;
+  --clr-2: #ededed;
+  --clr-1: #f7f7f7;
+  --clr-w: #ffffff;
+  --clr-p5: #332200;
+  --clr-p4: #664400;
+  --clr-p3: #a66f00;
+  --clr-p2: #e5a40b;
+  --clr-p1: #ffb700;
 }
