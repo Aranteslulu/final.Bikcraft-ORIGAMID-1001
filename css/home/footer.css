@@ -19,11 +19,11 @@
   margin-bottom: 32px;
 }
 
-.footer .contact ul {
+.footer-contact ul {
   margin-bottom: 32px;
 }
 
-.contact li:nth-child(even)::after {
+.footer-contact li:nth-child(even)::after {
   content: '';
   display: block;
 
@@ -55,7 +55,7 @@
   }
 
 
-  .contact li:nth-child(even)::after {
+  .footer-contact li:nth-child(even)::after {
     width: 250px;
   }
 }
