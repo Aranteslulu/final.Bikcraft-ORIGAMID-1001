@@ -36,10 +36,49 @@
       </div>
     </div>
 
-<div class="contact">
-  <section></section>
-  <section></section>
-</div>
+    <div class="contact container">
+      <section aria-label="endereço" class="contact-details">
+        <h2 class="font-1-medium clr-w">Loja Online</h2>
+
+        <div class="contact-address font-2-medium clr-4">
+          <p>Rua Ali Perto, 35</p>
+          <p>Rio de Janeiro - RJ</p>
+          <p>Brasil - Terra - Vita Láctea</p>
+        </div>
+        <address class="contact-options font-2-medium">
+          <a href="mailto:contato@bikcraft.com">contato@bikcraft.com</a>
+          <a href="mailto:assistencia@bikcraft.com">assistencia@bikcraft.com</a>
+          <a href="tel:+552199999999">+55 21 99999999</a>
+        </address>
+        <ul class="social-media">
+          <li aria-label="instagram"><a href="./"><img src="img/redes/instagram-primary.svg" alt="Instagram"></a></li>
+          <li aria-label="facebook"><a href="./"><img src="img/redes/facebook-primary.svg" alt="Facebook"></a></li>
+          <li aria-label="youtube"><a href="./"><img src="img/redes/youtube-primary.svg" alt="Youtube"></a></li>
+        </ul>
+      </section>
+
+      <section aria-label="formulário" class="contact-form">
+        <form class="form font-1-small" action="./contato.html">
+          <div>
+            <label for="name"><span>*</span>Nome</label>
+            <input type="text" name="name" id="name" placeholder="Seu nome" required>
+          </div>
+          <div>
+            <label for="phone-num">Telefone</label>
+            <input type="text" name="phone-num" id="phone-num" placeholder="(21) 9999-9999">
+          </div>
+          <div class="span-column">
+            <label for="email"><span>*</span>Email</label>
+            <input type="email" name="email" id="email" placeholder="Seuemail@gmail.com" required>
+          </div>
+          <div class="span-column">
+            <label for="message"><span>*</span>Mensagem</label>
+            <textarea name="message" id="message" rows="5" placeholder="O que você precisa?" required></textarea>
+          </div>
+          <button class="primary-btn">ENVIAR MENSAGEM</button>
+        </form>
+      </section>
+    </div>
   </main>
 
   <footer class="footer-bg">
