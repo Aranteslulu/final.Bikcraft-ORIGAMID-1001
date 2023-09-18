@@ -33,5 +33,7 @@
 /* bicycle */
 @import "./bicycle/bicycle.css";
 @import "./bicycle/bike-insurance.css";
+
 /* contact */
 @import "./contact/contact.css";
+@import "./contact/location.css";
