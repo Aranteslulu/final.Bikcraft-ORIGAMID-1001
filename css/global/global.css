@@ -10,6 +10,10 @@ body {
   color: var(--clr-11);
 }
 
+button {
+  border: none;
+}
+
 img {
   max-width: 100%;
   height: auto;
