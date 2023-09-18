@@ -1,0 +1,54 @@
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  font-weight: 600;
+}
+
+.form label {
+  display: block;
+  padding-bottom: 4px;
+}
+
+.form span {
+  color: var(--clr-p1);
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+  font: 400 1rem 'roboto', sans-serif;
+  background-color: var(--clr-1);
+  border: 2px solid var(--clr-2);
+  border-radius: 4px;
+  padding: 12px;
+  width: 100%;
+}
+
+.form input:focus,
+.form textarea:focus {
+  outline: none;
+  border-color: var(--clr-p1);
+}
+
+.span-column {
+  grid-column: span 2;
+}
+
+.form .primary-btn {
+  grid-column: 1/-1;
+  width: max-content;
+}
+
+@media (max-width:800px) {
+  
+@media (max-width:600px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+
+  .form .span-column {
+    grid-column: 1;
+  }
+}
+}
