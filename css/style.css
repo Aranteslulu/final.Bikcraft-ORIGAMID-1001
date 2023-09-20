@@ -37,3 +37,6 @@
 /* contact */
 @import "./contact/contact.css";
 @import "./contact/location.css";
+
+/* budget */
+@import "./budget/budget.css";
