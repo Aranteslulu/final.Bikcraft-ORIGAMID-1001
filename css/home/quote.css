@@ -54,6 +54,11 @@
   font-size: 5rem;
   color: var(--clr-p3);
 }
+@media (min-width:1200px) {
+  .quote img {
+    max-height: 520px;
+  }
+}
 
 @media (max-width:1000px) {
   .blockquote {
