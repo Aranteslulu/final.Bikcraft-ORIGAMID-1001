@@ -19,7 +19,7 @@ address a {
 }
 
 .contact-details {
-  background-color: var(--clr-12);
+  background: var(--clr-12) url(../../img/decoração/top-right.svg) no-repeat bottom 40px left 40px;
   border-radius: 5px 0 0 5px;
 }
 
@@ -58,14 +58,18 @@ address a {
 }
 
 @media (max-width:800px) {
-.contact {
-  grid-template-columns: 1fr;
-  padding-bottom: 80px;
-}
+  .contact {
+    grid-template-columns: 1fr;
+    padding-bottom: 80px;
+  }
 
-.contact-details,
-.contact-form {
-  padding: 40px 40px 60px;
-}
+  .contact-details {
+    background: var(--clr-12);
+  }
+
+  .contact-details,
+  .contact-form {
+    padding: 40px 40px 60px;
+  }
 
 }
