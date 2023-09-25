@@ -1,5 +1,5 @@
 .bicycles-bg {
-  background-color: var(--clr-11);
+  background: var(--clr-11);
 }
 
 .bicycles {
@@ -9,6 +9,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   align-items: center;
+  background: url(../../img/decoração/bottom-left.svg) no-repeat top 60px right 20px;
 }
 
 .bicycles-img img {
@@ -101,6 +102,10 @@
     padding-bottom: 40px;
     grid-template-columns: 1fr;
   }
+
+.bicycles {
+  background: none;
+}
 
   .bicycles-img img {
     width: 100%;
