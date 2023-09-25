@@ -1,5 +1,5 @@
 .title-bg {
-  background-color: var(--clr-11);
+  background: var(--clr-11) url(../../img/decoração/bottom-left.svg) no-repeat top 40px right 40px;
 
   padding-top: 60px;
   padding-bottom: 60px;
@@ -14,6 +14,7 @@
 
 @media (max-width:800px) {
   .title-bg {
+    background: var(--clr-11);
     padding-top: 40px;
     padding-bottom: 40px;
   }
