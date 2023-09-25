@@ -2,7 +2,7 @@
   background: linear-gradient(var(--clr-11) 550px, var(--clr-2) 0px);
 }
 
-.budget {
+.budget form {
   display: grid;
   grid-template-columns: 5fr 7fr;
   padding-bottom: 120px;
@@ -32,7 +32,7 @@
 
 .budget-product {
   border-radius: 5px 0 0 5px;
-  background: var(--clr-12);
+  background: var(--clr-12) url(../../img/decoração/top-right.svg) no-repeat bottom 20px left 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-content: start;
@@ -107,7 +107,7 @@
 
 .budget-data {
   border-radius: 0 5px 5px 0;
-  background: var(--clr-w);
+  background: var(--clr-w) url(../../img/decoração/top-left.svg) no-repeat bottom 20px right 20px;
 }
 
 .budget-data .primary-btn {
@@ -155,16 +155,18 @@
 }
 
 @media (max-width:900px) {
-  .budget {
+  .budget form {
     grid-template-columns: 1fr;
   }
 
   .budget-data {
     border-radius: 0 0 5px 5px;
+    background: var(--clr-w);
   }
 
   .budget-product {
     border-radius: 5px 5px 0 0;
+    background: var(--clr-12);
   }
 
   .budget-details li {
