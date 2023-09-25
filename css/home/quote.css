@@ -1,5 +1,5 @@
 .quote-bg {
-  background-color: var(--clr-p1);
+  background: var(--clr-p1) url(../../img/decoração/top-left-yellow.svg) no-repeat bottom 40px right 40px;
 }
 
 .quote {
